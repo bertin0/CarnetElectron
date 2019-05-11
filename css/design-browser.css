@@ -3,7 +3,8 @@
     --header-bg: #fafafa;
     --header-text-color:black;
     --drag-bar-bg: rgb(63, 81, 181);
-    --grid-button-shadow: 0 0px 0px 2px  rgb(86, 99, 173);
+    /* --grid-button-shadow: 0 0px 0px 2px  rgb(86, 99, 173); */
+    /* --grid-button-shadow: 0 0px 0px 2px  rgba(20, 20, 20, 0.75); */
     --note-text-color: black;
     --note-bg: white;
     --note-bg-hover: white;
@@ -14,7 +15,21 @@
     --carnet-icon-view-bg:rgb(36, 46, 100);
     --loading-view-bg:rgb(36, 46, 100);
     --fab-color: black;
+    --fab-shadow: 3px 3px rgba(8, 8, 8, .6);
 }   
+
+.fab-container{
+    background: var(--drag-bar-bg);
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(32, 32, 32, .6);
+}
+
+#add-note-button, #add-directory-button{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-top: 8px;
+}
 
 #drag-bar{
     background: var(--drag-bar-bg);
@@ -35,8 +50,8 @@
 
 #grid-button-container{
     background: var(--fab-button-bg);
-    box-shadow: var(--grid-button-shadow);
-    border-top-left-radius: 5px;
+    /* box-shadow: var(--grid-button-shadow); */
+    border-radius: 50%;
     bottom:0;
     position: fixed;
     color: var(--fab-color)
