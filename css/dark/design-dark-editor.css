@@ -1,13 +1,13 @@
 .toolbar {
-    background: #22252f;
+    background: #252525;/*#22252f;*/
 }
 
 
 .mdl-layout__drawer {
-    background: #1e222b;
+    background: #222222;/*#1e222b;*/
 }
 
 #center {
-    background: #393c44;
+    background: #1b1b1b;/*#393c44;*/
     color: #f9f9f9;
 }

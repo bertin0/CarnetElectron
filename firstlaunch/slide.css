@@ -2,7 +2,7 @@
 
 body {
     padding: 0%;
-    background: #2f4686;
+    background: rgb(0, 130, 201);/*#2f4686;*/
 }
 
 .slideshow-container {
@@ -61,11 +61,11 @@ body {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-
+/* 
 .active,
 .dot:hover {
     background-color: #717171;
-}
+} */
 
 /* Fading animation */
 

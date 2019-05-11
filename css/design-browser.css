@@ -2,18 +2,16 @@
     --grid-bg: #fafafa;
     --header-bg: #fafafa;
     --header-text-color:black;
-    --drag-bar-bg: rgb(63, 81, 181);
-    /* --grid-button-shadow: 0 0px 0px 2px  rgb(86, 99, 173); */
-    /* --grid-button-shadow: 0 0px 0px 2px  rgba(20, 20, 20, 0.75); */
+    --drag-bar-bg: rgb(0, 130, 201);/*rgb(63, 81, 181);*/
     --note-text-color: black;
     --note-bg: white;
     --note-bg-hover: white;
     --note-border: white;
     --note-border-hover: white;
     --note-shadow: 0 0px 0px 2px rgba(0, 0, 0, .14);
-    --note-shadow-hover: 0 0px 0px 2px rgb(86, 99, 173);
-    --carnet-icon-view-bg:rgb(36, 46, 100);
-    --loading-view-bg:rgb(36, 46, 100);
+    --note-shadow-hover: 0 0px 0px 2px rgb(50, 170, 235);/*rgb(86, 99, 173);*/
+    /* --carnet-icon-view-bg: rgb(20, 95, 136);rgb(36, 46, 100); */
+    --loading-view-bg:rgb(20, 95, 136);/*rgb(36, 46, 100);*/
     --fab-color: black;
     --fab-shadow: 3px 3px rgba(8, 8, 8, .6);
 }   
@@ -29,6 +27,7 @@
     width: 64px;
     height: 64px;
     margin-top: 8px;
+    display: block;
 }
 
 #drag-bar{
@@ -49,7 +48,7 @@
 
 
 #grid-button-container{
-    background: var(--fab-button-bg);
+    /* background: var(--fab-button-bg); */
     /* box-shadow: var(--grid-button-shadow); */
     border-radius: 50%;
     bottom:0;
@@ -62,7 +61,7 @@ body{
 }
 
 #carnet-icon-view{
-    background: var(--carnet-icon-view-bg);
+    background: var(--grid-bg);
 }
 
 #loading-view{

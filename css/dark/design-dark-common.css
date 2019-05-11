@@ -1,12 +1,12 @@
 :root{
-    --header-bg:#22252f;
+    --header-bg:#252525;/*#22252f;*/
     --header-text-color:white;
-    --drawer-bg: #22252f;
+    --drawer-bg: #252525;/*#22252f;*/
     --drawer-text-color:white;
-    --dialog-bg: #22252f;
+    --dialog-bg: #252525;/*#22252f;*/
     --dialog-text-color: white;
-    --body-bg: #393c44;
-    --drawer-text-button-hover:#2f3341;
+    --body-bg: #1b1b1b;/*#393c44;*/
+    --drawer-text-button-hover: #333333;/*#2f3341;*/
 }
 
 html {
@@ -14,8 +14,8 @@ html {
     scrollbar-base-color: #646464;
     scrollbar-3dlight-color: #646464;
     scrollbar-highlight-color: #646464;
-    scrollbar-track-color: #22252f;
-    scrollbar-arrow-color: #22252f;
+    scrollbar-track-color: #252525;/*#22252f;*/
+    scrollbar-arrow-color: #252525;/*#22252f;*/
     scrollbar-shadow-color: #646464;
     scrollbar-dark-shadow-color: #646464;
   }
@@ -23,15 +23,35 @@ html {
   ::-webkit-scrollbar { width: 8px; height: 3px;}
   ::-webkit-scrollbar-button {  height: 0px; background-color: #666; }
   ::-webkit-scrollbar-track {  background-color: #646464;}
-  ::-webkit-scrollbar-track-piece { background-color: #22252f;}
+  ::-webkit-scrollbar-track-piece { background-color: #252525;/*#22252f;*/}
   ::-webkit-scrollbar-thumb { height: 1px; background-color: #666; }
   ::-webkit-scrollbar-corner { background-color: #646464;}
   ::-webkit-resizer { background-color: #666;}
 
-.mdl-layout__drawer {
-    border-right-color:grey;
+.mdl-data-table__cell--non-numeric:hover, #carnet-settings-button:hover{
+    background-color: var(--drawer-text-button-hover);
 }
 
+.mdl-menu__outline {
+    background-color: var(--dialog-bg);
+    color: var(--dialog-text-color);
+}
+
+.mdl-menu__item {
+    color: var(--dialog-text-color);
+}
+
+.mdl-menu__item:hover{
+    background-color: var(--drawer-text-button-hover);
+}
+
+.mdl-layout__drawer {
+    border-right-color:#444;
+}
+
+.mdl-data-table {
+    background-color: var(--dialog-bg);
+}
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
     color:white;

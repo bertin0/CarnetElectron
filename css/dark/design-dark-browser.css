@@ -1,13 +1,12 @@
-
 :root{
-    --grid-bg: #22252f;
+    --grid-bg: #252525;
     --note-text-color: white;
-    --note-bg: #2f3341;
-    --note-bg-hover: #2f3341;
-    --loading-view-bg:#22252f;
-    --fab-button-bg: #2f3341;
+    --note-bg: #363636;
+    --note-bg-hover: #363636;
+    --loading-view-bg:#252525;
+    --fab-button-bg: #363636;
     --fab-color:white;
-    --drag-bar-bg: rgb(36, 46, 100);
+    --drag-bar-bg: rgb(20, 95, 136);/*rgb(36, 46, 100);*/
     --note-shadow: 0 0px 0px 2px rgba(168, 168, 168, 0.14);
-    --note-shadow-hover: 0 0px 0px 2px rgb(86, 99, 173);
+    --note-shadow-hover: 0 0px 0px 2px rgb(50, 170, 235);/*rgb(86, 99, 173);*/
 }

@@ -1,6 +1,6 @@
 :root{
     --body-bg: white;
-    --header-bg: rgb(63, 81, 181);
+    --header-bg: rgb(0, 130, 201);/*rgb(63, 81, 181);*/
     --header-text-color:white;
     --drawer-bg: #fafafa;
     --drawer-text-color:#757575;
@@ -9,7 +9,7 @@
     --dialog-bg: white;
     --dialog-text-color: black;
     --button-text-color: white;
-    --label-text-color: rgb(63, 81, 181);
+    --label-text-color: rgb(0, 130, 201);/*rgb(63, 81, 181);*/
     --fab-button-bg: #fafafa;
     --fab-button-hover-bg: rgba(158, 158, 158, .6);
 
@@ -50,7 +50,6 @@ dialog{
 }
 .mdl-button{
     color:var(--button-text-color);
-    display: block;
 }
 .mdl-textfield__label{
     color: var(--label-text-color) !important;
